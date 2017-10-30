@@ -18,6 +18,6 @@ function deepestChild() {
   for (let i = 0; i < grandNodeChild.length; i++) {
     if (grandNodeChild[i].querySelectorAll('div').length  === 0) {
       return grandNodeChild[i];
-    } 
+    }
   }
 }
