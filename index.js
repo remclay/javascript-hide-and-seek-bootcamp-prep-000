@@ -1,4 +1,4 @@
-function getFirstSelector(selector){
+function getFirstSelector(selector) {
   return document.querySelector(selector);
 }
 
@@ -8,7 +8,7 @@ function nestedTarget(nested, target) {
 
 function increaseRankBy(n) {
   const findLis = document.getElementById('app').querySelectorAll('ul.ranked-list li');
-  for (let i = 0; i < findLis.length; i++){
+  for (let i = 0; i < findLis.length; i++) {
     findLis[i].innerHTML = parseInt(findLis[i].innerHTML)+n;
   }
 }
